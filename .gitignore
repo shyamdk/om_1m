@@ -1,0 +1,214 @@
+# ========================================
+# SENSITIVE FILES - NEVER COMMIT THESE!
+# ========================================
+
+# Environment variables with API credentials
+.env
+.env.local
+.env.*.local
+
+# API Keys and Credentials
+keys/
+keys/*
+keys/key.txt
+*.key
+*.pem
+*.p12
+credentials.json
+token.json
+
+# User-specific sensitive data
+config_local.py
+*_local.py
+*_secret.py
+
+# ========================================
+# TRADING DATA - KEEP PRIVATE
+# ========================================
+
+# Database files
+data/
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Log files
+logs/
+*.log
+
+# Trade data and CSV files
+files/trades/*.csv
+files/logs/*.log
+files/backtest/*.csv
+files/screener/*.csv
+files/flags/*.json
+files/om_strategy/*.csv
+files/df/*.csv
+*.csv
+
+# Backup files
+*.bak
+*.backup
+
+# ========================================
+# PYTHON
+# ========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ========================================
+# IDE AND EDITORS
+# ========================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ========================================
+# OPERATING SYSTEM
+# ========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ========================================
+# PROJECT SPECIFIC
+# ========================================
+
+# Selenium/Browser drivers
+geckodriver
+geckodriver-*.tar.gz
+chromedriver
+chromedriver-*
+
+# Old/archived files (keep locally but don't commit)
+old_files_after_ai/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# ========================================
+# JUPYTER NOTEBOOK
+# ========================================
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ========================================
+# DOCUMENTATION BUILD
+# ========================================
+
+# Sphinx documentation
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# ========================================
+# MISC
+# ========================================
+
+# Node modules (if any)
+node_modules/
+
+# Package files
+*.dmg
+*.pkg
+
+# Local development files
+local/
+*.local

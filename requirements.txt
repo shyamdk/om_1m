@@ -1,0 +1,17 @@
+# Angel One SmartAPI
+smartapi-python
+
+# Data handling
+pandas
+numpy
+
+# Authentication
+pyotp
+python-dotenv
+
+# Web scraping (if needed)
+selenium
+
+# Additional utilities
+requests
+urllib3
